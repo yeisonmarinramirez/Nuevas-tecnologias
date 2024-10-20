@@ -13,3 +13,10 @@ function agregarTarea (){
     let iconos = document.createElement('div');
     iconos.classList.add('iconos');
     tareaNueva.appendChild(iconos)
+
+   //Iconos
+
+    let completar = document.createElement('i');
+    completar.classList.add('bi','bi-check-circle-fill','icono-competar');
+    completar.addEventListener('click', completarTarea);
+
