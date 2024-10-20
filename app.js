@@ -34,3 +34,20 @@ function agregarTarea (){
   }
 
 }
+
+function completarTarea(e){
+    let tarea = e.target.parentNode.parentNode;
+   tarea.classList.toggle('completada');
+}
+
+function eliminarTarea(e){
+    let tarea = e.target.parentNode.parentNode;
+    tarea.remove();
+}
+boton.addEventListener('click',agregarTarea);
+
+input.addEventListener('keydown',(e) =>{
+   if(e.key === 'Enter'){
+    agregarTarea();
+   }
+});
