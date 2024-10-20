@@ -32,3 +32,22 @@ body{
     flex-direction: column;
     align-items: center;
 }
+
+/* estilos para el título (h1) y los campos de entrada (input) */
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.515);
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
