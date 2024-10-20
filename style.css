@@ -67,6 +67,29 @@ button{
     user-select: none;
 }
 
+/* estilos para la lista de tareas y los elementos individuales de tareas */
+/* Lista de Pendientes */
+#listas-de-tareas {
+    width: 80%;
+    margin-top: 20px;
+}
 
+/* Pendiente */
+.tarea{
+    width: 500px;
+    min-height: 30px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #409fa66f;
+    border: none;
+    box-shadow: 30px 8px 20px #040303;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
 
 
