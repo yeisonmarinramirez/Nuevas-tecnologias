@@ -20,3 +20,10 @@ function agregarTarea (){
     completar.classList.add('bi','bi-check-circle-fill','icono-competar');
     completar.addEventListener('click', completarTarea);
 
+
+    let eliminar = document.createElement('i');
+    eliminar.classList.add('bi','bi-trash3-fill','icono-eliminar');
+    eliminar.addEventListener('click',eliminarTarea);
+
+    iconos.append(completar,eliminar);
+
