@@ -27,3 +27,10 @@ function agregarTarea (){
 
     iconos.append(completar,eliminar);
 
+    //Agregar tarea a la lista 
+    listaDeTareas.appendChild(tareaNueva);
+  }else{
+    alert('Por favor ingresa un pendiente ')
+  }
+
+}
