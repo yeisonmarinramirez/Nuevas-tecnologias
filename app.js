@@ -1,3 +1,8 @@
+const input = document.getElementById('ingresa-tarea');
+const boton = document.querySelector('button');
+const listaDeTareas = document.getElementById('lista-de-tareas');
+
+
 function agregarTarea (){
   if (input.value) {
     //Crear tarea
