@@ -93,3 +93,37 @@ button{
 }
 
 
+/* estilos para las tareas completadas y los iconos de acciones (completar/eliminar) */
+/* Tarea completada */
+.tarea.completada {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ffcc0046, #ff6905f6);
+    backdrop-filter: blur(20px);
+    border: none;
+}
+
+.tarea p{
+    max-width: 350px;
+}
+
+/* Iconos */
+i{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icono-completar {
+    color: rgb(0,255,0);
+}
+
+.icono-eliminar{
+    color: rgba(89, 59, 59, 0.775);
+}
+
+.icono-eliminar:hover{
+    background-color: rgba(255,255,255,0.523);
+}
+
+
+
