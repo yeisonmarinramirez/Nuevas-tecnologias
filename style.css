@@ -1,0 +1,129 @@
+/* Estilos generales */
+*{
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* estilos de body y .contenedor */
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 0;
+    background: url(imagenes/DESK.jpg) no-repeat center center/cover;
+}
+
+.contenedor{
+    width: 700px;
+    min-height: 500px;
+    background-color: rgba(255, 255, 255, 0.133);
+    backdrop-filter: blur(5px);
+    padding: 40px;
+    border: none;
+    box-shadow: 30px 8px 50px #0403035a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* estilos para el título (h1) y los campos de entrada (input) */
+h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.515);
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+/* estilos para el botón (button) en el archivo */
+button{
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+    color: rgba(4, 3, 3, 0.633);
+    backdrop-filter: blur(20px);
+    background-color: #8a8a8a3f;
+    font-size: 22px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: inset 0 0 10px #444444;
+    cursor: pointer;
+    user-select: none;
+}
+
+/* estilos para la lista de tareas y los elementos individuales de tareas */
+/* Lista de Pendientes */
+#listas-de-tareas {
+    width: 80%;
+    margin-top: 20px;
+}
+
+/* Pendiente */
+.tarea{
+    width: 500px;
+    min-height: 30px;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+    background-color: #409fa66f;
+    border: none;
+    box-shadow: 30px 8px 20px #040303;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+
+/* estilos para las tareas completadas y los iconos de acciones (completar/eliminar) */
+/* Tarea completada */
+.tarea.completada {
+    transform: scale(1.1);
+    background: linear-gradient(to right, #ffcc0046, #ff6905f6);
+    backdrop-filter: blur(20px);
+    border: none;
+}
+
+.tarea p{
+    max-width: 350px;
+}
+
+/* Iconos */
+i{
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.icono-completar {
+    color: rgb(0,255,0);
+}
+
+.icono-eliminar{
+    color: rgba(89, 59, 59, 0.775);
+}
+
+.icono-eliminar:hover{
+    background-color: rgba(255,255,255,0.523);
+}
+
+
+
